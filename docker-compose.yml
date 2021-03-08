@@ -2,8 +2,8 @@ version: '2'
 
 services:
   runner:
-    # build: . # Caso queira personalizar o Dockerfile.
-    image: gfviegas/cdd # Se usar a opção build, comente esta.
+    build: . # Caso queira personalizar o Dockerfile.
+    # image: gfviegas/cdd # Se usar a opção build, comente esta.
     container_name: cdd-runner
     working_dir: /code
     volumes:
