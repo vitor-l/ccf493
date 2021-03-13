@@ -4,7 +4,7 @@ services:
   runner:
     build: . # Caso queira personalizar o Dockerfile.
     # image: gfviegas/cdd # Se usar a opção build, comente esta.
-    container_name: cdd-runner
+    container_name: ccf-493
     working_dir: /code
     volumes:
       - ./:/code
