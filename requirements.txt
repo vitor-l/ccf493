@@ -7,3 +7,5 @@ matplotlib
 xlrd
 pyarrow
 nltk
+auto-sklearn
+tensorflow
